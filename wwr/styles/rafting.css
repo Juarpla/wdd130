@@ -244,6 +244,7 @@ footer p {
     width: 33rem;
     max-width: 39rem;
     justify-self: left;
+    border:0; 
 }
 
 form {
