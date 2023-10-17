@@ -1,11 +1,132 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash | Contact Us</title>
+    <meta name="description" content="This page will give to the user a way to contact the company">
+    <meta name="author" content="Juan Plasencia">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="profiles">
+            <h1>Reach Our team</h1>
+            <p>We love questions and feedback – and we're always happy to
+                help! Here are some ways to contact us.</p>
+            <figure>
+                <img src="images/contactus_01.jpg" alt="Ashly River">
+                <figcaption>Ashly River<br>- Customer Service -</figcaption>
+            </figure>
+            <figure>
+                <img src="images/contactus_02.jpg" alt="Jordan Scot">
+                <figcaption>Jordan Scot<br>- Claims Clerk -</figcaption>
+            </figure>
+            <figure>
+                <img src="images/contactus_03.jpg" alt="Sam Jackson">
+                <figcaption>Sam Jackson<br>- Technical Support -</figcaption>
+            </figure>
+        </section>
+        <section class="information">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Contact Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/email.svg" alt=""></td>
+                        <td>Email</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="mailto:contact.rafting@splash.io">contact.rafting@splash.io</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/phone.svg" alt=""></td>
+                        <td>Phone</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>01 (236) 125 12536</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/location.svg" alt=""></td>
+                        <td>Location</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Winnipeg,<br>
+                            Manitoba,<br>
+                            Canada.
+                        </td>
+                    </tr>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2143.8238364214153!2d-97.13090536286384!3d49.886692345587626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDUzJzEyLjEiTiA5N8KwMDcnNTQuMSJX!5e1!3m2!1sen!2spe!4v1697501219477!5m2!1sen!2spe"
+                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </tbody>
+            </table>
+        </section>
+        <section class="form">
+            <form>
+                <h2>Send Us a Message</h2>
+                <p>Send us a message and we'll respond within 24 hours.</p>
+                <div class="name">
+                    <label for="name">YOUR NAME:</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="email">
+                    <label for="email">YOUR EMAIL:</label><br>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="radio">
+                    <p>PURPOSE OF THE MESSAGE:</p>
+                    <input type="radio" id="general inquiry" name="subject" value="General Inquiry">
+                    <label for="general inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation question" name="subject" value="Reservation Question">
+                    <label for="reservation question">Reservation Question</label>
+                    <input type="radio" id="website suggestion" name="subject" value="Website Suggestion">
+                    <label for="website suggestion">Website Suggestion</label>
+                </div>
+                <div class="message">
+                    <label for="q2">MESSAGE:</label><br>
+                    <textarea name="q2" id="q2" rows="10" cols="80"></textarea>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="subscribed" id="subscribed">
+                    <label for="subscribed">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Subtmit Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©2023 🏆 Splash: White Water Rafting 🏆 Juan Plasencia</p>
+        <nav class="sociallinks">
+            <a href="http://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="http://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="http://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
 </html>
