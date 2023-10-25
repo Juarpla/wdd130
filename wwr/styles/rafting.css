@@ -327,7 +327,7 @@ button {
     font-size: 1.4rem;
 }
 
-.trip_call a {
+.button_call {
     grid-area: 3 / 1 / 4 / 4;
     font-size: 3.5rem;
     margin-top: 0;
