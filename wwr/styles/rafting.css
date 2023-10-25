@@ -402,6 +402,10 @@ td {
     border: 1px solid black;
 }
 
+.trips_information th {
+    font-size: 2rem;
+}
+
 .full_width {
     display: grid;
     grid-template-columns: 1fr;
