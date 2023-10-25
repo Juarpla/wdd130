@@ -401,3 +401,125 @@ button {
 td {
     border: 1px solid black;
 }
+
+.full_width {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.full_width img {
+    grid-area: 1 / 1 / 3 / 2;
+    width: 100%;
+    filter: contrast(120%);
+}
+
+.full_width h1 {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background: var(--secondary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+    font-size: 2rem;
+}
+
+.full_width p {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 50%;
+    align-self: baseline;
+    display: grid;
+    justify-content: center;
+    background: var(--accent1-color);
+    opacity: 0.6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    filter: contrast(150%);
+    border-radius: 0.5rem;
+}
+
+.sign_up {
+    display: flex;
+}
+
+.single_form {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.single_form input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.important_information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 3rem;
+}
+
+.important_information h2 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.important_information p {
+    padding: 1rem;
+}
+
+.mini_gallery {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 3rem;
+}
+
+.mini_gallery h2 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.mini_gallery figure {
+    margin: 0.5rem;
+    border: thin var(--primary-color) solid;
+    padding: 5px;
+}
+
+.mini_gallery figcaption {
+    background-color: var(--accent1-color);
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.mini_gallery img {
+    height: 20rem;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
+}
+
+.media article {
+    padding: 4rem;
+}
+
+.media iframe {
+    padding: 1rem;
+    width: 70%;
+    height: 15rem;
+}
+
+.trip_call h2 {
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: 2.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
