@@ -519,6 +519,7 @@ td {
     padding: 1rem;
     width: 70%;
     height: 15rem;
+    border: 0;
 }
 
 .trip_call h2 {
