@@ -394,12 +394,6 @@ button {
 
 .trips_information {
     width: 60rem;
-    border: 1px solid black;
-}
-
-.trips_information th,
-td {
-    border: 1px solid black;
 }
 
 .trips_information th {
